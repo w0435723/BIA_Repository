@@ -10,6 +10,12 @@ This repository is part of coursework and projects completed as part of the **Bu
 - `SQL_Queries.ipynb` – SQL scripts for data extraction and transformation
 - `Rolling_Calendar_MCode.txt` – M code for building a rolling calendar in Power BI
 
+## 🔍 Featured Project
+
+📁 `PdM_DataMart_Project/`  
+This subproject creates a star schema data mart for Predictive Maintenance using machine telemetry, error, and maintenance data to support predictive analytics.
+
+
 ## 🧰 Tools & Technologies
 
 - Jupyter Notebook (Python)
