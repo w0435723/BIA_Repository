@@ -12,7 +12,8 @@ This repository is part of coursework and projects completed as part of the **Bu
 
 ## 🔍 Featured Project
 
-📁 `PdM_DataMart_Project/`  
+📁[`PdM_DataMart_Project/`](https://github.com/w0435723/BIA_Repository/tree/main/PdM_DataMart_Project)
+  
 This subproject creates a star schema data mart for Predictive Maintenance using machine telemetry, error, and maintenance data to support predictive analytics.
 
 
