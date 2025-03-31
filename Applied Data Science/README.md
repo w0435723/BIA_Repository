@@ -15,10 +15,9 @@ This project aims to classify employee engagement levels using supervised machin
 - [`EmployeeEngagement_ScikitLearn.ipynb`](https://github.com/w0435723/BIA_Repository/blob/main/Applied%20Data%20Science/EmployeeEngagement_ScikitLearn.ipynb)  
   → Manual implementation in Scikit-learn based on PyCaret results
 
-- `Employee_Profile_Report.html`  
+- 🔗 [View Employee_Profile_Report.html](https://w0435723.github.io/BIA_Repository/Employee_Profile_Report.html)    
   → Full data profile using [YData Profiling](https://github.com/ydataai/ydata-profiling), published via GitHub Pages  
-  🔗 [View HTML Report](https://w0435723.github.io/BIA_Repository/Employee_Profile_Report.html)
-
+  
 ---
 
 ## 📊 Data Source
