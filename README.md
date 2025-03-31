@@ -32,7 +32,7 @@ Updates may occur periodically to reflect continued learning and improvements.
 
 ## 🔗 Contributions & Issues
 
-This repository is currently not open to contributions. For suggestions or issues, feel free to open an issue or contact the maintainer.
+This repository is currently not open to contributions. For suggestions or issues, feel free to contact the owner.
 
 ---
 
