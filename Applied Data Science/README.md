@@ -1,41 +1,51 @@
-# BIA Repository
+# 🧠 Employee Engagement Classification Project
 
-## 🎓 Purpose
-This repository is part of coursework and projects completed as part of the **Business Intelligence and Analytics (BIA)** program at **NSCC**. It showcases hands-on skills in transforming raw data into actionable business insights through the use of machine learning, data engineering, and BI tools.
+This project aims to classify employee engagement levels using supervised machine learning techniques. It includes two approaches:
 
-## 📂 Contents
-
-- `EmployeeClustering.ipynb` – K-Means clustering on employee attributes
-- `EmployeeEngagementClassification.ipynb` – Supervised ML for predicting engagement
-- `SQL_Queries.ipynb` – SQL scripts for data extraction and transformation
-- `Rolling_Calendar_MCode.txt` – M code for building a rolling calendar in Power BI
-
-## 🔍 Featured Project
-
-📁[`PdM_DataMart_Project/`](https://github.com/w0435723/BIA_Repository/tree/main/PdM_DataMart_Project)
-  
-This subproject creates a star schema data mart for Predictive Maintenance using machine telemetry, error, and maintenance data to support predictive analytics.
-
-
-## 🧰 Tools & Technologies
-
-- Jupyter Notebook (Python)
-- scikit-learn, pandas, matplotlib
-- Microsoft SQL Server
-- Power BI (M code for data modeling)
-
-
-## 📌 Status
-
-✅ Completed  
-Updates may occur periodically to reflect continued learning and improvements.
-
-## 🔗 Contributions & Issues
-
-This repository is currently not open to contributions. For suggestions or issues, feel free to open an issue or contact the maintainer.
+- ✅ A **PyCaret-based notebook** that handles automatic model comparison, SMOTE balancing, and detailed model evaluation.
+- ✅ A **Scikit-learn notebook** that builds a manual pipeline inspired by the best model found in PyCaret (LightGBM), using the Random Forest Classifier.
 
 ---
 
-📘 [_NSCC | Business Intelligence and Analytics Program_](https://www.nscc.ca/programs-and-courses/programs/plandescr.aspx?prg=BZIA&pln=BZNTELADV)
+## 📂 Project Contents
+
+- `EmployeeEngagement_PyCaret_.ipynb`  
+  → Automated classification and model tuning using PyCaret
+
+- `EmployeeEngagement_ScikitLearn.ipynb`  
+  → Manual implementation in Scikit-learn based on PyCaret results
+
+- `Employee_Profile_Report.html`  
+  → Full data profile using [YData Profiling](https://github.com/ydataai/ydata-profiling), published via GitHub Pages  
+  🔗 [View HTML Report](https://w0435723.github.io/BIA_Repository/Employee_Profile_Report.html)
+
+---
+
+## 📊 Data Source
+
+- Dataset: **Company Employees**  
+- 📥 Source: [Kaggle Dataset by Abdallah Wagih](https://www.kaggle.com/datasets/abdallahwagih/company-employees/data)
+
+---
+
+## 🧾 Final Model Comparison: Scikit-learn vs. PyCaret
+
+| Metric        | Scikit-learn (Random Forest) | PyCaret (LightGBM)      |
+|---------------|------------------------------|--------------------------|
+| Accuracy      | 0.9855                       | 0.9903                   |
+| Recall        | 0.9903                       | 0.9903                   |
+| Precision     | 0.9903                       | 0.9903                   |
+| F1 Score      | 0.9903                       | 0.9903                   |
+| AUC           | 1.00                         | 0.9935 (avg)             |
+| Confusion Matrix | Slightly less accurate on 'Medium' | Stronger balance |
+
+---
+
+## 🧠 Final Summary
+
+Both the PyCaret and Scikit-learn models demonstrated exceptional classification performance for predicting employee engagement levels. The PyCaret LightGBM model slightly edged out the Random Forest model in terms of accuracy and class balance, as seen in the confusion matrix. However, the Scikit-learn model still achieved nearly perfect results, including an AUC of 1.00 and F1-score of 0.99. Overall, both models are viable for deployment, and the slight differences could be attributed to internal optimizations of the respective algorithms.
+
+---
+
 
  
