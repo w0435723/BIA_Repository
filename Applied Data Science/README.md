@@ -9,10 +9,10 @@ This project aims to classify employee engagement levels using supervised machin
 
 ## 📂 Project Contents
 
-- `EmployeeEngagement_PyCaret_.ipynb`  
+- [`EmployeeEngagement_PyCaret.ipynb`](https://github.com/w0435723/BIA_Repository/blob/main/Applied%20Data%20Science/EmployeeEngagement_PyCaret.ipynb)  
   → Automated classification and model tuning using PyCaret
 
-- `EmployeeEngagement_ScikitLearn.ipynb`  
+- [`EmployeeEngagement_ScikitLearn.ipynb`](https://github.com/w0435723/BIA_Repository/blob/main/Applied%20Data%20Science/EmployeeEngagement_ScikitLearn.ipynb)  
   → Manual implementation in Scikit-learn based on PyCaret results
 
 - `Employee_Profile_Report.html`  
