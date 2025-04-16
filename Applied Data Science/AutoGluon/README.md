@@ -2,8 +2,8 @@
 
 This project explores two machine learning workflows using **AutoGluon**:
 
-1. **Regression Modeling** — Predicting Overtime Hours
-2. **Classification Modeling** — Predicting Employee Engagement Level (High vs Medium)
+1. **Regression Modeling** - Predicting Overtime Hours
+2. **Classification Modeling**  - Predicting Employee Engagement Level (High vs Medium)
 
 > 📂 **Data Source**: [Company Employees Dataset from Kaggle](https://www.kaggle.com/datasets/abdallahwagih/company-employees/data)
 
