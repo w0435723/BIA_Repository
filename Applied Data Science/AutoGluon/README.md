@@ -79,18 +79,6 @@ Engagement level is categorical (High, Medium, Low). The "Low" class was merged 
 
 ---
 
-## ✅ How to Reuse Trained Models
-
-To load any saved model:
-
-```python
-from autogluon.tabular import TabularPredictor
-
-predictor = TabularPredictor.load("AutogluonModels/ag-20250416_031523")  # Replace with your folder
-```
-
----
-
 ## 💬 Contact
 
 For questions, suggestions, or collaborations, feel free to connect!
